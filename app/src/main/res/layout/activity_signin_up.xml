@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_background"
+    tools:context=".SigninUp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/singlelogo"/>
+
+
+    <EditText
+        android:layout_marginTop="65dp"
+        android:id="@+id/usernamesignup"
+        android:layout_below="@+id/logo"
+        android:layout_width='250dp'
+        android:layout_height="50dp"
+        android:hint="@string/enterusernamehint"
+        android:drawableLeft="@drawable/ic_action_userid"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"/>
+
+    <EditText
+        android:id="@+id/phonenumbersignup"
+        android:layout_below="@+id/usernamesignup"
+        android:layout_width='250dp'
+        android:layout_height="50dp"
+        android:hint="@string/enterphonenumberhint"
+        android:drawableLeft="@drawable/ic_action_userid"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"/>
+
+    <EditText
+        android:id="@+id/userpasswordsignup"
+        android:layout_width='250dp'
+        android:layout_height="50dp"
+        android:hint="@string/enterpasswordhint"
+        android:layout_below="@+id/phonenumbersignup"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_action_userlock"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"/>
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/action_button2signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/userpasswordsignup"
+        android:text="@string/Sign_Up_button"
+        app:floating_background_color="@color/colorforSignUp"
+        app:floating_title="@string/Sign_Up_button"
+        app:floating_title_color="@android:color/white" />
+
+</RelativeLayout>

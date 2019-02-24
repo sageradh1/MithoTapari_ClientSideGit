@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/singlelogo"/>
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width='250dp'
+        android:layout_height="50dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="65dp"
+        android:text="9802088142"
+        android:drawableLeft="@drawable/ic_action_userid"
+        android:hint="@string/enterphonenumberhint"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+
+    <EditText
+        android:id="@+id/userpassword"
+        android:layout_width='250dp'
+        android:layout_height="50dp"
+        android:layout_below="@+id/phonenumber"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_action_userlock"
+        android:hint="@string/enterpasswordhint"
+        android:text="12345"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/action_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userpassword"
+        android:text="@string/Sign_In_button"
+        android:layout_centerHorizontal="true"
+        app:floating_background_color="@color/colorforSignIn"
+        app:floating_title="@string/Sign_In_button"
+        app:floating_title_color="@android:color/white" />
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/action_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/action_button1"
+        android:text="Hellow"
+        app:floating_background_color="@color/colorforSignUp"
+        app:floating_title="@string/Sign_Up_button"
+        app:floating_title_color="@android:color/white" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "10519622244",
+    "firebase_url": "https://mitho-tapari.firebaseio.com",
+    "project_id": "mitho-tapari",
+    "storage_bucket": "mitho-tapari.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10519622244:android:cb1b027493bf827a",
+        "android_client_info": {
+          "package_name": "com.dashaintihar.etc.mithotapari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10519622244-3mablc8plgp8ijqh4ni35lqb7hfsar4g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dashaintihar.etc.mithotapari",
+            "certificate_hash": "27ed347b01070eaefe5b2c2def8885e71f4569e3"
+          }
+        },
+        {
+          "client_id": "10519622244-4ruds8ff3h0cqqso9is6e8hn2s3l8ru2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEpQjxPZhagi8JupORunxEiwct30yNoI8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10519622244-4ruds8ff3h0cqqso9is6e8hn2s3l8ru2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

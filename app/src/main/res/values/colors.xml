@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorforSignIn">#00b33c</color>
+    <color name="colorforSignUp">#00cca3</color>
+
+    <color name="funky_yellow">#fbff49</color>
+    <color name="jamara_color">#c5e244</color>
+    <color name="nav_coolblack">#282828</color>
+    <color name="overlayActionbar">#00cca3</color>
+
+    <color name="nav_cooldarkgrey">#4c4b4b</color>
+
+    <color name="nav_coollightgrey">#636363</color>
+    <color name="testing">#5f333639</color>
+</resources>

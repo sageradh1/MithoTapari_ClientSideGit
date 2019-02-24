@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mitho Tapari</string>
+
+    <string name="Sign_In_button">Sign In</string>
+    <string name="Sign_Up_button">Sign Up</string>
+    <string name="Signinhere">Sign In here</string>
+    <string name="signuphere">Sign Up here</string>
+
+    <string name="enterphonenumberhint">Enter phone number</string>
+    <string name="enterusernamehint">Enter Username</string>
+    <string name="enterpasswordhint">Enter Password</string>
+    <string name="title_activity_navhome">navhome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">User</string>
+
+</resources>
