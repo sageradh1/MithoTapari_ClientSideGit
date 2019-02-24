@@ -1,3 +1,2 @@
-##Help
-The program hangs when the intent is fired the flow goes from navhome.java to innerFoodlist.java
+### A Food Ordering App with Sign In, Sign UP, Nav bar , Menus till now
 
