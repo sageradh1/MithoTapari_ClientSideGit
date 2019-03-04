@@ -52,7 +52,10 @@ public class MainActivity extends AppCompatActivity {
                         if (dataSnapshot.child(phonenumber.getText().toString()).exists()){
                             //stop waiting sign
                             mDialogue.dismiss();
+
                             User user = dataSnapshot.child(phonenumber.getText().toString()).getValue(User.class);
+                            user.setPhone(phonenumber.getText().toString());
+
                             if (user.getPassword().equals(userpassword.getText().toString())){
                                 Toast.makeText(MainActivity.this, "Signed in Successfully", Toast.LENGTH_SHORT).show();
                                 Intent homeintent =new Intent(MainActivity.this,navhome.class);

@@ -1,6 +1,7 @@
 package com.dashaintihar.etc.mithotapari;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -59,6 +60,9 @@ public class SigninUp extends AppCompatActivity {
                             User user = new User(usernamesignup.getText().toString(),userpasswordsignup.getText().toString());
                             table_user.child(phonenumbersignup.getText().toString()).setValue(user);
                             Toast.makeText(SigninUp.this,"New id saved",Toast.LENGTH_SHORT);
+                            Intent redirecttomain = new Intent(SigninUp.this,MainActivity.class);
+                            startActivity(redirecttomain);
+                            finish();
                         }
                     }
 

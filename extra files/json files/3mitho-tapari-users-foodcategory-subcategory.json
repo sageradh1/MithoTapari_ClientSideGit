@@ -1,0 +1,142 @@
+{
+  "Category": {
+    "01": {
+      "Name": "Momo",
+      "Image": "https://www.ndtv.com/cooks/images/Lamb.Momos.with.Sweet.Chilli.Sauce-620.jpg"
+    },
+    "02": {
+      "Name": "Chaumin",
+      "Image": "//5.imimg.com/data5/QM/BA/GLADMIN-11909187/chaumin-noodles-500x500.png"
+    },
+    "03": {
+      "Name": "Pizza",
+      "Image": "https://api-content.prod.pizzahutaustralia.com.au//umbraco/api/Image/Get2?path=assets/products/menu/Meat-Super-Supreme-Pizza-3250-menu.jpg"
+    },
+    "04": {
+      "Name": "Chicken Chilli",
+      "Image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2018/07/chilli-chicken-recipe-500x500.jpg"
+    },
+    "05": {
+      "Name": "Burgers and Fries",
+      "Image": "https://i.dailymail.co.uk/i/pix/2017/11/08/16/4623608900000578-0-image-a-9_1510156892900.jpg"
+    },
+    "06": {
+      "Name": "Wings",
+      "Image": "https://www.eatingbirdfood.com/wp-content/uploads/2017/09/cauliflower-wings-8.jpg"
+    }
+  },
+  "User" : {
+    "9802088142" : {
+      "Name" : "Sagar",
+      "Password" : "12345"
+    },
+    "9845086446" : {
+      "Name" : "Siba",
+      "Password" : "12345"
+    },
+    "9855051010" : {
+      "name" : "Bharat",
+      "password" : "12345"
+    }
+  },
+    "Food": {
+    "01": {
+      "Name": "Food one 1",
+      "Image": "https://www.ndtv.com/cooks/images/Lamb.Momos.with.Sweet.Chilli.Sauce-620.jpg",
+      "Description": "This is a Chinese dish",
+      "Price": "120",
+      "Discount": "20",
+      "MenuID": "01"
+    },
+	"02": {
+      "Name": "Food one 2",
+      "Image": "https://www.ndtv.com/cooks/images/Lamb.Momos.with.Sweet.Chilli.Sauce-620.jpg",
+      "Description": "This is a Chinese dish",
+      "Price": "120",
+      "Discount": "20",
+      "MenuID": "01"
+    },
+	"03": {
+      "Name": "Food one 3",
+      "Image": "https://www.ndtv.com/cooks/images/Lamb.Momos.with.Sweet.Chilli.Sauce-620.jpg",
+      "Description": "This is a Chinese dish",
+      "Price": "120",
+      "Discount": "20",
+      "MenuID": "01"
+    },
+    "04": {
+      "Name": "Food two 1",
+      "Image": "https://5.imimg.com/data5/TD/SE/MY-10247618/vegetable-samosa-500x500.jpg",
+      "Description": "This is a famous indian dish",
+      "Price": "25",
+      "Discount": "5",
+      "MenuID": "02"
+    },
+	
+    "05": {
+      "Name": "Food two 2",
+      "Image": "https://5.imimg.com/data5/TD/SE/MY-10247618/vegetable-samosa-500x500.jpg",
+      "Description": "This is a famous indian dish",
+      "Price": "25",
+      "Discount": "5",
+      "MenuID": "02"
+    },
+	
+    "06": {
+      "Name": "Food two 3",
+      "Image": "https://5.imimg.com/data5/TD/SE/MY-10247618/vegetable-samosa-500x500.jpg",
+      "Description": "This is a famous indian dish",
+      "Price": "25",
+      "Discount": "5",
+      "MenuID": "02"
+    },
+    "07": {
+      "Name": "Food three 1",
+      "Image": "https://api-content.prod.pizzahutaustralia.com.au//umbraco/api/Image/Get2?path=assets/products/menu/Meat-Super-Supreme-Pizza-3250-menu.jpg",
+      "Description": "This is an Italian dish",
+      "Price": "450",
+      "Discount": "50",
+      "MenuID": "03"
+    },
+	"08": {
+      "Name": "Food three 2",
+      "Image": "https://api-content.prod.pizzahutaustralia.com.au//umbraco/api/Image/Get2?path=assets/products/menu/Meat-Super-Supreme-Pizza-3250-menu.jpg",
+      "Description": "This is an Italian dish",
+      "Price": "450",
+      "Discount": "50",
+      "MenuID": "03"
+    },
+	"09": {
+      "Name": "Food three 3",
+      "Image": "https://api-content.prod.pizzahutaustralia.com.au//umbraco/api/Image/Get2?path=assets/products/menu/Meat-Super-Supreme-Pizza-3250-menu.jpg",
+      "Description": "This is an Italian dish",
+      "Price": "450",
+      "Discount": "50",
+      "MenuID": "03"
+    },
+    "10": {
+      "Name": "Food four 1",
+      "Image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2018/07/chilli-chicken-recipe-500x500.jpg",
+      "Description": "This is probably a french dish",
+      "Price": "250",
+      "Discount": "20",
+      "MenuID": "04"
+    },"11": {
+      "Name": "Food four 2",
+      "Image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2018/07/chilli-chicken-recipe-500x500.jpg",
+      "Description": "This is probably a french dish",
+      "Price": "250",
+      "Discount": "20",
+      "MenuID": "04"
+    },"12": {
+      "Name": "Food four 3",
+      "Image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2018/07/chilli-chicken-recipe-500x500.jpg",
+      "Description": "This is probably a french dish",
+      "Price": "250",
+      "Discount": "20",
+      "MenuID": "04"
+    }
+  }
+}
+
+

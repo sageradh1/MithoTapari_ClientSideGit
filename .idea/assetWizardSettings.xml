@@ -82,7 +82,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/F:/Andriod_Studio_folder/Andriod%20studio%20installed/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_open_in_browser_black_24dp.xml" />
+                                      <entry key="url" value="jar:file:/F:/Andriod_Studio_folder/Andriod%20studio%20installed/plugins/android/lib/android.jar!/images/material_design_icons/editor/ic_attach_money_black_24dp.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -92,7 +92,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_open_in_browser_black_24dp" />
+                            <entry key="outputName" value="ic_attach_money_black_24dp" />
                             <entry key="sourceFile" value="C:\Users\Sagar Adh" />
                           </map>
                         </option>

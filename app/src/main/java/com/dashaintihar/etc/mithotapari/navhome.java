@@ -38,7 +38,6 @@ public class navhome extends AppCompatActivity
 
     TextView username_in_navheader;
 
-
     RecyclerView recycler_menu;
     RecyclerView.LayoutManager layoutManager;
 
@@ -61,8 +60,10 @@ public class navhome extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Directing......", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Directing towards Cart", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+                Intent directCart = new Intent(navhome.this,Cart.class);
+                startActivity(directCart);
             }
         });
 
@@ -166,10 +167,17 @@ public class navhome extends AppCompatActivity
          if (id == R.id.menu) {
 
          } else if(id == R.id.cart){
+             Intent directCart = new Intent(navhome.this,Cart.class);
+             startActivity(directCart);
 
         } else if(id == R.id.orders){
+             Intent directOrders = new Intent(navhome.this,OrderStatus.class);
+             startActivity(directOrders);
 
         }else if(id == R.id.logout){
+             Intent signout = new Intent(navhome.this,MainActivity.class);
+             signout.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
+             startActivity(signout);
 
         }
 
